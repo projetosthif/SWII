@@ -22,6 +22,85 @@
                     ]
                 }
             }
+        },
+        {
+            "name": "get_dados",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost/aula_api/app/get_all_data/",
+                    "path": [
+                        "aula_api",
+                        "app",
+                        "get_all_data"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "get_nomes",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost/aula_api/app/get_all_names/",
+                    "path": [
+                        "aula_api",
+                        "app",
+                        "get_all_names"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "get_total_registros",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost/aula_api/app/get_total_records/",
+                    "path": [
+                        "aula_api",
+                        "app",
+                        "get_total_records"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "get_um_cliente",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost/aula_api/app/get_um_cliente?id=1",
+                    "query": [
+                        {
+                            "key": "id",
+                            "value": "1"
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "aula_api",
+                        "app",
+                        "get_um_cliente"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
         }
     ]
 }
